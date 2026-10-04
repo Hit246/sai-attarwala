@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact & Location | Sai Attarwala & Men's Accessories | Idar</title>
+  
+  <meta name="description" content="Contact Sai Attarwala & Men's Accessories in Idar. Shop Address: D-5 Asha Shopping Centre, Laxmi Cinema Road, Idar. Phone/WhatsApp: +91 9898382682. Shop timings: 9 AM to 7 PM.">
+  <meta name="keywords" content="Sai Attarwala phone number, Sai Attarwala Idar address, Laxmi Cinema Road Idar shop">
+  <meta name="author" content="Sai Attarwala & Men's Accessories">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Contact & Location - Sai Attarwala Idar">
+  <meta property="og:description" content="Visit our shop at Asha Shopping Centre, Idar or call/WhatsApp +91 9898382682 for inquiries.">
+  <meta property="og:image" content="assets/images/logo.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/images/logo.png">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="bg-stone-950 text-gray-100 antialiased min-h-screen flex flex-col justify-between">
+
+  <!-- TOP HEADER & NAVBAR -->
+  <header class="sticky top-0 z-40 bg-stone-950/90 backdrop-blur-md border-b border-yellow-500/20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        
+        <a href="index.html" class="flex items-center gap-3 group">
+          <div class="w-12 h-12 rounded-full overflow-hidden border-2 border-yellow-500/60 shadow-lg group-hover:border-yellow-400 transition">
+            <img src="assets/images/logo.png" alt="Sai Attarwala Logo" class="w-full h-full object-cover">
+          </div>
+          <div>
+            <h1 class="text-xl font-extrabold gold-text-gradient tracking-tight leading-none" data-i18n="brandName">Sai Attarwala</h1>
+            <p class="text-xs text-yellow-500/80 font-medium tracking-wide mt-0.5" data-i18n="brandSub">& Men's Accessories</p>
+          </div>
+        </a>
+
+        <nav class="hidden md:flex items-center gap-8">
+          <a href="index.html" class="text-sm font-medium text-gray-300 hover:text-yellow-400 transition" data-i18n="navHome">Home</a>
+          <a href="products.html" class="text-sm font-medium text-gray-300 hover:text-yellow-400 transition" data-i18n="navProducts">Products</a>
+          <a href="about.html" class="text-sm font-medium text-gray-300 hover:text-yellow-400 transition" data-i18n="navAbout">About Us</a>
+          <a href="contact.html" class="text-sm font-bold text-yellow-400 border-b-2 border-yellow-400 pb-1" data-i18n="navContact">Contact Us</a>
+        </nav>
+
+        <div class="flex items-center gap-3">
+          <button class="lang-toggle-btn px-3 py-1.5 rounded-lg border border-yellow-500/40 bg-stone-900 text-yellow-400 text-xs font-bold hover:bg-yellow-500/10 transition flex items-center">
+            <!-- Populated via JS -->
+          </button>
+
+          <a href="tel:+919898382682" class="hidden lg:flex items-center gap-2 px-4 py-2 rounded-xl gold-bg-gradient text-stone-950 font-bold text-xs shadow-md hover:scale-105 transition">
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20 15.5c-1.25 0-2.45-.2-3.57-.57a1.02 1.02 0 0 0-1.02.24l-2.2 2.2a15.045 15.045 0 0 1-6.59-6.59l2.2-2.21a.96.96 0 0 0 .25-1A11.36 11.36 0 0 1 8.5 4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.5c0-.55-.45-1-1-1z"/></svg>
+            <span>+91 9898382682</span>
+          </a>
+
+          <button id="mobile-menu-btn" class="md:hidden p-2 text-gray-300 hover:text-yellow-400 focus:outline-none" aria-label="Open Navigation Menu">
+            <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- MOBILE NAVIGATION DRAWER -->
+  <div id="mobile-menu-drawer" class="fixed inset-0 z-50 transform translate-x-full transition-transform duration-300 bg-stone-950/98 backdrop-blur-xl md:hidden flex flex-col justify-between p-6">
+    <div>
+      <div class="flex items-center justify-between pb-6 border-b border-yellow-500/20">
+        <div class="flex items-center gap-3">
+          <img src="assets/images/logo.png" alt="Sai Attarwala" class="w-10 h-10 rounded-full border border-yellow-500">
+          <span class="font-extrabold gold-text-gradient text-lg" data-i18n="brandName">Sai Attarwala</span>
+        </div>
+        <button id="mobile-menu-close" class="p-2 text-gray-400 hover:text-yellow-400" aria-label="Close Navigation Menu">
+          <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+      </div>
+      <nav class="flex flex-col gap-6 mt-8">
+        <a href="index.html" class="text-lg font-medium text-gray-200 hover:text-yellow-400 flex items-center justify-between" data-i18n="navHome">Home <span>→</span></a>
+        <a href="products.html" class="text-lg font-medium text-gray-200 hover:text-yellow-400 flex items-center justify-between" data-i18n="navProducts">Products <span>→</span></a>
+        <a href="about.html" class="text-lg font-medium text-gray-200 hover:text-yellow-400 flex items-center justify-between" data-i18n="navAbout">About Us <span>→</span></a>
+        <a href="contact.html" class="text-lg font-bold text-yellow-400 flex items-center justify-between" data-i18n="navContact">Contact Us <span>→</span></a>
+      </nav>
+    </div>
+    <div class="space-y-3 pt-6 border-t border-yellow-500/20">
+      <a href="tel:+919898382682" class="w-full py-3 rounded-xl gold-bg-gradient text-stone-950 font-bold text-center block" data-i18n="heroCtaCall">Call Now (+91 9898382682)</a>
+      <a href="https://wa.me/919898382682?text=Hi%20Sai%20Attarwala,%20I%20want%20to%20know%20more%20about%20your%20products" target="_blank" class="w-full py-3 rounded-xl bg-emerald-600 text-white font-bold text-center block" data-i18n="heroCtaWhatsApp">Enquire on WhatsApp</a>
+    </div>
+  </div>
+
+  <main class="flex-grow py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Page Header -->
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <h1 class="text-3xl sm:text-5xl font-black text-white tracking-tight mb-4" data-i18n="contactTitle">
+          Contact Us & Shop Location
+        </h1>
+        <p class="text-sm sm:text-base text-gray-400 leading-relaxed" data-i18n="contactSubtitle">
+          We are always delighted to welcome you to our shop or answer your calls & messages.
+        </p>
+      </div>
+
+      <!-- CONTACT DETAILS & MAP GRID -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 mb-16">
+        
+        <!-- Left: Details Cards -->
+        <div class="lg:col-span-5 space-y-6">
+          
+          <!-- Address Card -->
+          <div class="glass-card p-6 rounded-2xl flex items-start gap-4">
+            <div class="w-12 h-12 rounded-xl bg-yellow-500/10 border border-yellow-500/30 flex items-center justify-center text-yellow-400 shrink-0 text-xl font-bold">
+              📍
+            </div>
+            <div>
+              <h3 class="text-sm font-extrabold gold-text-gradient uppercase tracking-wider mb-1" data-i18n="shopAddressTitle">Shop Address</h3>
+              <p class="text-sm text-gray-300 leading-relaxed" data-i18n="shopAddress">
+                D-5, Asha Shopping Centre, Laxmi Cinema Road, Shrinagar, Idar, Gujarat - 383430
+              </p>
+            </div>
+          </div>
+
+          <!-- Phone Card -->
+          <div class="glass-card p-6 rounded-2xl flex items-start gap-4">
+            <div class="w-12 h-12 rounded-xl bg-yellow-500/10 border border-yellow-500/30 flex items-center justify-center text-yellow-400 shrink-0 text-xl font-bold">
+              📞
+            </div>
+            <div>
+              <h3 class="text-sm font-extrabold gold-text-gradient uppercase tracking-wider mb-1" data-i18n="shopPhoneTitle">Phone / Call Us</h3>
+              <a href="tel:+919898382682" class="text-lg font-bold text-white hover:text-yellow-400 transition" data-i18n="shopPhone">
+                +91 9898382682
+              </a>
+              <p class="text-xs text-gray-400 mt-1">Tap to call directly from your phone</p>
+            </div>
+          </div>
+
+          <!-- WhatsApp Card -->
+          <div class="glass-card p-6 rounded-2xl flex items-start gap-4">
+            <div class="w-12 h-12 rounded-xl bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 shrink-0 text-xl font-bold">
+              💬
+            </div>
+            <div>
+              <h3 class="text-sm font-extrabold gold-text-gradient uppercase tracking-wider mb-1" data-i18n="shopWhatsAppTitle">WhatsApp Enquiry</h3>
+              <a href="https://wa.me/919898382682?text=Hi%20Sai%20Attarwala,%20I%20want%20to%20know%20more%20about%20your%20products" target="_blank" class="text-lg font-bold text-emerald-400 hover:underline">
+                +91 9898382682
+              </a>
+              <p class="text-xs text-gray-400 mt-1">Send a message for instant inquiry</p>
+            </div>
+          </div>
+
+          <!-- Timings Card -->
+          <div class="glass-card p-6 rounded-2xl flex items-start gap-4">
+            <div class="w-12 h-12 rounded-xl bg-yellow-500/10 border border-yellow-500/30 flex items-center justify-center text-yellow-400 shrink-0 text-xl font-bold">
+              🕒
+            </div>
+            <div>
+              <h3 class="text-sm font-extrabold gold-text-gradient uppercase tracking-wider mb-1" data-i18n="shopTimingsTitle">Shop Timings</h3>
+              <p class="text-sm font-semibold text-gray-200" data-i18n="shopTimings">
+                9:00 AM to 7:00 PM (Monday to Sunday)
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right: Embedded Google Map -->
+        <div class="lg:col-span-7 flex flex-col justify-between">
+          <div class="w-full h-full min-h-[380px] rounded-3xl overflow-hidden glass-card border border-yellow-500/30 relative">
+            <!-- Google Maps Embed for Asha Shopping Centre / Laxmi Cinema Road Idar -->
+            <iframe 
+              title="Sai Attarwala Shop Location Map Idar"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14631.674843924376!2d73.0039!3d23.8406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c47864f1d0b7d%3A0x8e50b5ecf005!2sIdar%2C%20Gujarat%20383430!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
+              width="100%" 
+              height="100%" 
+              style="border:0; filter: grayscale(0.2) contrast(1.1);" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade"
+              class="w-full h-full min-h-[380px]"
+            ></iframe>
+          </div>
+          
+          <a 
+            href="https://maps.google.com/?q=Asha+Shopping+Centre+Laxmi+Cinema+Road+Idar+Gujarat" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            class="mt-4 w-full py-3 rounded-xl gold-bg-gradient text-stone-950 font-bold text-center text-sm shadow-md hover:scale-[1.02] transition block"
+            data-i18n="getDirections"
+          >
+            🗺️ Get Directions on Google Maps
+          </a>
+        </div>
+
+      </div>
+
+      <!-- ACTION BANNER -->
+      <div class="glass-card p-8 rounded-3xl border border-yellow-500/40 text-center max-w-4xl mx-auto">
+        <h2 class="text-2xl font-black text-white mb-3" data-i18n="contactBannerTitle">
+          Have Questions or Looking for a Specific Product?
+        </h2>
+        <p class="text-sm text-gray-300 mb-6 max-w-xl mx-auto" data-i18n="contactBannerDesc">
+          Call or send us a message on WhatsApp right now. We will respond promptly!
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="tel:+919898382682" class="px-8 py-3.5 rounded-xl gold-bg-gradient text-stone-950 font-extrabold text-sm shadow-lg hover:scale-105 transition" data-i18n="heroCtaCall">
+            Call Now (+91 9898382682)
+          </a>
+          <a href="https://wa.me/919898382682?text=Hi%20Sai%20Attarwala,%20I%20have%20an%20enquiry." target="_blank" class="px-8 py-3.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-sm shadow-lg hover:scale-105 transition" data-i18n="heroCtaWhatsApp">
+            Enquire on WhatsApp
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-stone-950 border-t border-yellow-500/20 pt-12 pb-24 md:pb-12 text-gray-400 text-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-8 pb-8 border-b border-stone-800">
+        
+        <div class="md:col-span-5">
+          <div class="flex items-center gap-3 mb-4">
+            <img src="assets/images/logo.png" alt="Sai Attarwala Logo" class="w-10 h-10 rounded-full border border-yellow-500">
+            <h3 class="text-lg font-extrabold gold-text-gradient" data-i18n="brandName">Sai Attarwala</h3>
+          </div>
+          <p class="text-xs text-gray-400 leading-relaxed mb-4 max-w-sm" data-i18n="footerAbout">
+            Sai Attarwala & Men's Accessories is your premier shop in Idar for Attar, Imported Perfumes, Body Sprays, Watches, Leather Belts, Wallets & Jewellery.
+          </p>
+          <div class="flex gap-3 text-xs">
+            <a href="tel:+919898382682" class="text-yellow-400 hover:underline">📞 +91 9898382682</a>
+            <span class="text-gray-600">|</span>
+            <a href="https://wa.me/919898382682" class="text-emerald-400 hover:underline">💬 WhatsApp</a>
+          </div>
+        </div>
+
+        <div class="md:col-span-3">
+          <h4 class="text-white font-bold text-sm mb-4 gold-text-gradient uppercase tracking-wider" data-i18n="quickLinks">Quick Links</h4>
+          <ul class="space-y-2 text-xs">
+            <li><a href="index.html" class="hover:text-yellow-400 transition" data-i18n="navHome">Home</a></li>
+            <li><a href="products.html" class="hover:text-yellow-400 transition" data-i18n="navProducts">Products Catalog</a></li>
+            <li><a href="about.html" class="hover:text-yellow-400 transition" data-i18n="navAbout">About Us</a></li>
+            <li><a href="contact.html" class="hover:text-yellow-400 transition" data-i18n="navContact">Contact & Location</a></li>
+          </ul>
+        </div>
+
+        <div class="md:col-span-4">
+          <h4 class="text-white font-bold text-sm mb-4 gold-text-gradient uppercase tracking-wider" data-i18n="shopAddressTitle">Shop Address</h4>
+          <p class="text-xs text-gray-300 leading-relaxed mb-3" data-i18n="shopAddress">
+            D-5, Asha Shopping Centre, Laxmi Cinema Road, Shrinagar, Idar, Gujarat - 383430
+          </p>
+          <p class="text-xs text-yellow-500 font-medium" data-i18n="shopTimings">
+            🕒 Timings: 9:00 AM to 7:00 PM (Monday to Sunday)
+          </p>
+        </div>
+
+      </div>
+
+      <div class="pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-gray-500 gap-2">
+        <p data-i18n="allRightsReserved">© 2026 Sai Attarwala & Men's Accessories, Idar. All Rights Reserved.</p>
+        <p class="text-yellow-500/60" data-i18n="developedForLocal">Local Shop Showcase | Idar, Gujarat</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- MOBILE FLOATING STICKY ACTION BUTTONS -->
+  <div class="fixed bottom-0 left-0 right-0 z-40 md:hidden bg-stone-950/95 backdrop-blur-lg border-t border-yellow-500/30 p-2.5 px-4 flex gap-3 floating-cta-bar">
+    <a href="tel:+919898382682" class="flex-1 py-3 rounded-xl gold-bg-gradient text-stone-950 font-extrabold text-xs text-center flex items-center justify-center gap-2 shadow-lg">
+      <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M20 15.5c-1.25 0-2.45-.2-3.57-.57a1.02 1.02 0 0 0-1.02.24l-2.2 2.2a15.045 15.045 0 0 1-6.59-6.59l2.2-2.21a.96.96 0 0 0 .25-1A11.36 11.36 0 0 1 8.5 4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.5c0-.55-.45-1-1-1z"/></svg>
+      <span data-i18n="navCallNow">Call Now</span>
+    </a>
+    <a href="https://wa.me/919898382682?text=Hi%20Sai%20Attarwala,%20I%20want%20to%20know%20more%20about%20your%20products" target="_blank" class="flex-1 py-3 rounded-xl bg-emerald-600 text-white font-extrabold text-xs text-center flex items-center justify-center gap-2 shadow-lg">
+      <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M12.031 2c-5.516 0-9.993 4.477-9.993 9.993 0 1.763.459 3.479 1.33 4.996l-1.417 5.176 5.297-1.389c1.474.804 3.136 1.226 4.783 1.226 5.516 0 9.993-4.477 9.993-9.993s-4.477-9.993-9.993-9.993zm5.728 14.168c-.237.669-1.382 1.278-1.916 1.342-.534.064-1.222.091-3.528-.857-2.952-1.213-4.839-4.225-4.987-4.423-.148-.198-1.206-1.606-1.206-3.063 0-1.457.761-2.176 1.033-2.464.272-.288.594-.36.792-.36.198 0 .396.002.569.011.184.01.433-.07.677.514.247.593.841 2.052.915 2.201.074.148.124.321.025.519-.099.198-.148.321-.297.495-.148.173-.312.387-.446.519-.148.148-.302.309-.129.606.173.297.771 1.273 1.656 2.062 1.139 1.015 2.1 1.328 2.397 1.476.297.148.47.124.643-.074.173-.198.742-.866.94-1.163.198-.297.396-.247.668-.148.272.099 1.731.816 2.028.965.297.148.495.223.569.346.074.124.074.717-.163 1.386z"/></svg>
+      <span data-i18n="navWhatsApp">WhatsApp</span>
+    </a>
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/products.js"></script>
+  <script src="assets/js/translations.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
