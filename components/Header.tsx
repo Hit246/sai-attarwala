@@ -40,11 +40,10 @@ export const Header: React.FC = () => {
 
   return (
     <header
-      className={`sticky top-0 z-50 transition-all duration-300 ${
-        isScrolled
-          ? "bg-[#0c0c0e]/95 backdrop-blur-md border-b border-brand-border shadow-lg"
-          : "bg-[#0c0c0e] border-b border-brand-border/60"
-      }`}
+      className={`sticky top-0 z-50 transition-all duration-300 ${isScrolled
+        ? "bg-[#0c0c0e]/95 backdrop-blur-md border-b border-brand-border shadow-lg"
+        : "bg-[#0c0c0e] border-b border-brand-border/60"
+        }`}
     >
       {/* Top micro bar for quick announcement & direct contact */}
       <div className="bg-gradient-to-r from-[#14141a] via-[#1c1c24] to-[#14141a] border-b border-brand-border/40 py-1.5 px-4 text-xs text-gray-300">
@@ -85,7 +84,7 @@ export const Header: React.FC = () => {
                 alt="Sai Attarwala & Men's Accessories Logo"
                 width={48}
                 height={48}
-                className="object-contain w-full h-full"
+                className="object-cover w-full h-full"
                 priority
               />
             </div>
@@ -107,11 +106,10 @@ export const Header: React.FC = () => {
                 <Link
                   key={link.href}
                   href={link.href}
-                  className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
-                    active
-                      ? "text-brand-gold bg-brand-goldMuted border border-brand-gold/40 shadow-sm"
-                      : "text-gray-300 hover:text-white hover:bg-brand-surface"
-                  }`}
+                  className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${active
+                    ? "text-brand-gold bg-brand-goldMuted border border-brand-gold/40 shadow-sm"
+                    : "text-gray-300 hover:text-white hover:bg-brand-surface"
+                    }`}
                 >
                   {link.label}
                 </Link>
@@ -183,11 +181,10 @@ export const Header: React.FC = () => {
                   key={link.href}
                   href={link.href}
                   onClick={() => setMobileMenuOpen(false)}
-                  className={`touch-target px-4 py-3 rounded-lg text-base font-medium flex items-center justify-between ${
-                    active
-                      ? "text-brand-gold bg-brand-goldMuted border border-brand-gold/30 font-semibold"
-                      : "text-gray-200 hover:text-white hover:bg-brand-surface"
-                  }`}
+                  className={`touch-target px-4 py-3 rounded-lg text-base font-medium flex items-center justify-between ${active
+                    ? "text-brand-gold bg-brand-goldMuted border border-brand-gold/30 font-semibold"
+                    : "text-gray-200 hover:text-white hover:bg-brand-surface"
+                    }`}
                 >
                   <span>{link.label}</span>
                   {active && <Sparkles className="w-4 h-4 text-brand-gold" />}

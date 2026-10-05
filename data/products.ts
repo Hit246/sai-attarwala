@@ -27,7 +27,7 @@ export const PRODUCTS: Product[] = [
     badgeGujarati: "બેસ્ટ સેલર",
     featured: true,
     inStock: true,
-    image: "/images/placeholders/attar.svg"
+    image: "/images/placeholders/royal-oudh.jpg"
   },
   {
     id: "attar-02",
@@ -44,7 +44,7 @@ export const PRODUCTS: Product[] = [
     badgeGujarati: "કુદરતી અર્ક",
     featured: true,
     inStock: true,
-    image: "/images/placeholders/attar.svg"
+    image: "/images/placeholders/GulabJannahPureRoseAttar.jpg"
   },
   {
     id: "attar-03",
@@ -61,7 +61,7 @@ export const PRODUCTS: Product[] = [
     badgeGujarati: "પરંપરાગત પસંદ",
     featured: false,
     inStock: true,
-    image: "/images/placeholders/attar.svg"
+    image: "/images/placeholders/MajmuaSpecialBlendAttar.jfif"
   },
 
   // ================= 2. IMPORTED PERFUMES (ઈમ્પોર્ટેડ પરફ્યુમ) =================
@@ -80,7 +80,7 @@ export const PRODUCTS: Product[] = [
     badgeGujarati: "પ્રીમિયમ",
     featured: true,
     inStock: true,
-    image: "/images/placeholders/perfume.svg"
+    image: "/images/placeholders/BlackPlatinumEDP.jfif"
   },
   {
     id: "perfume-02",
@@ -97,7 +97,7 @@ export const PRODUCTS: Product[] = [
     badgeGujarati: "લોકપ્રિય",
     featured: false,
     inStock: true,
-    image: "/images/placeholders/perfume.svg"
+    image: "/images/placeholders/AzureIntenseMenSpray.jfif"
   },
   {
     id: "perfume-03",
@@ -114,7 +114,7 @@ export const PRODUCTS: Product[] = [
     badgeGujarati: "રોયલ લક્ઝરી",
     featured: true,
     inStock: true,
-    image: "/images/placeholders/perfume.svg"
+    image: "/images/placeholders/VelvetOudDeluxeSpray.jfif"
   },
 
   // ================= 3. BODY SPRAY (બોડી સ્પ્રે) =================
@@ -133,7 +133,7 @@ export const PRODUCTS: Product[] = [
     badgeGujarati: "રોજિંદી જરૂરિયાત",
     featured: false,
     inStock: true,
-    image: "/images/placeholders/spray.svg"
+    image: "/images/placeholders/GoldLegendDeodorantSpray.jfif"
   },
   {
     id: "spray-02",
@@ -150,7 +150,7 @@ export const PRODUCTS: Product[] = [
     badgeGujarati: "ફ્રેશ એનર્જી",
     featured: false,
     inStock: true,
-    image: "/images/placeholders/spray.svg"
+    image: "/images/placeholders/ActiveSportBodySpray.jfif"
   },
   {
     id: "spray-03",
@@ -167,7 +167,7 @@ export const PRODUCTS: Product[] = [
     badgeGujarati: "નાઈટ સ્પેશિયલ",
     featured: false,
     inStock: true,
-    image: "/images/placeholders/spray.svg"
+    image: "/images/placeholders/NightMuskBodySpray.jfif"
   },
 
   // ================= 4. WATCHES (વોચ) =================
@@ -186,7 +186,7 @@ export const PRODUCTS: Product[] = [
     badgeGujarati: "એક્સક્લુઝિવ",
     featured: true,
     inStock: true,
-    image: "/images/placeholders/watch.svg"
+    image: "/images/placeholders/RoyaltyGoldChronographWatch.jfif"
   },
   {
     id: "watch-02",
@@ -203,7 +203,7 @@ export const PRODUCTS: Product[] = [
     badgeGujarati: "ફોર્મલ લુક",
     featured: false,
     inStock: true,
-    image: "/images/placeholders/watch.svg"
+    image: "/images/placeholders/ExecutiveBlackLeatherWatch.jfif"
   },
   {
     id: "watch-03",
@@ -220,326 +220,326 @@ export const PRODUCTS: Product[] = [
     badgeGujarati: "મજબૂત ડિઝાઇન",
     featured: false,
     inStock: true,
-    image: "/images/placeholders/watch.svg"
+    image: "/images/placeholders/SportDigital-AnalogComboWatch.jfif"
   },
 
-  // ================= 5. AGARBATTI / INCENSE (અગરબત્તી) =================
-  {
-    id: "agarbatti-01",
-    name: "Chandan Flora Special Agarbatti",
-    nameGujarati: "ચંદન ફ્લોરા સ્પેશિયલ અગરબત્તી",
-    category: "agarbatti",
-    categoryName: "Agarbatti (Incense)",
-    categoryNameGujarati: "અગરબત્તી",
-    price: "₹180",
-    priceValue: 180,
-    description: "Premium natural sandalwood masala sticks. Spreads divine, calm, and soothing aroma throughout home.",
-    descriptionGujarati: "કુદરતી ચંદન મસાલા અગરબત્તી. પૂજા-પાઠ અને ઘર-ઓફિસમાં પવિત્ર સુગંધ માટે શ્રેષ્ઠ.",
-    badge: "Pure Aroma",
-    badgeGujarati: "પવિત્ર સુવાસ",
-    featured: false,
-    inStock: true,
-    image: "/images/placeholders/agarbatti.svg"
-  },
-  {
-    id: "agarbatti-02",
-    name: "Kesar Kasturi Luxury Incense",
-    nameGujarati: "કેસર કસ્તુરી લક્ઝરી અગરબત્તી",
-    category: "agarbatti",
-    categoryName: "Agarbatti (Incense)",
-    categoryNameGujarati: "અગરબત્તી",
-    price: "₹220",
-    priceValue: 220,
-    description: "Rich saffron & musk blended charcoal-free incense sticks with extra long burning time.",
-    descriptionGujarati: "કેસર અને કસ્તુરીની મનભાવક સુગંધ વાળી લાંબો સમય બળતી સ્પેશિયલ અગરબત્તી.",
-    badge: "Charcoal Free",
-    badgeGujarati: "ધુમાડા મુક્ત",
-    featured: false,
-    inStock: true,
-    image: "/images/placeholders/agarbatti.svg"
-  },
-  {
-    id: "agarbatti-03",
-    name: "Mogra Divine Incense Pack",
-    nameGujarati: "મોગરા ડિવાઇન અગરબત્તી પેક",
-    category: "agarbatti",
-    categoryName: "Agarbatti (Incense)",
-    categoryNameGujarati: "અગરબત્તી",
-    price: "₹150",
-    priceValue: 150,
-    description: "Fresh natural jasmine flower extract incense sticks for daily prayers and festive mood.",
-    descriptionGujarati: "તાજા મોગરાના ફૂલોની મધુર સુવાસ આપતી રોજિંદા પૂજન માટેની અગરબત્તી.",
-    badge: "Daily Pooja",
-    badgeGujarati: "નિત્ય પૂજા",
-    featured: false,
-    inStock: true,
-    image: "/images/placeholders/agarbatti.svg"
-  },
+  // // ================= 5. AGARBATTI / INCENSE (અગરબત્તી) =================
+  // {
+  //   id: "agarbatti-01",
+  //   name: "Chandan Flora Special Agarbatti",
+  //   nameGujarati: "ચંદન ફ્લોરા સ્પેશિયલ અગરબત્તી",
+  //   category: "agarbatti",
+  //   categoryName: "Agarbatti (Incense)",
+  //   categoryNameGujarati: "અગરબત્તી",
+  //   price: "₹180",
+  //   priceValue: 180,
+  //   description: "Premium natural sandalwood masala sticks. Spreads divine, calm, and soothing aroma throughout home.",
+  //   descriptionGujarati: "કુદરતી ચંદન મસાલા અગરબત્તી. પૂજા-પાઠ અને ઘર-ઓફિસમાં પવિત્ર સુગંધ માટે શ્રેષ્ઠ.",
+  //   badge: "Pure Aroma",
+  //   badgeGujarati: "પવિત્ર સુવાસ",
+  //   featured: false,
+  //   inStock: true,
+  //   image: "/images/placeholders/agarbatti.svg"
+  // },
+  // {
+  //   id: "agarbatti-02",
+  //   name: "Kesar Kasturi Luxury Incense",
+  //   nameGujarati: "કેસર કસ્તુરી લક્ઝરી અગરબત્તી",
+  //   category: "agarbatti",
+  //   categoryName: "Agarbatti (Incense)",
+  //   categoryNameGujarati: "અગરબત્તી",
+  //   price: "₹220",
+  //   priceValue: 220,
+  //   description: "Rich saffron & musk blended charcoal-free incense sticks with extra long burning time.",
+  //   descriptionGujarati: "કેસર અને કસ્તુરીની મનભાવક સુગંધ વાળી લાંબો સમય બળતી સ્પેશિયલ અગરબત્તી.",
+  //   badge: "Charcoal Free",
+  //   badgeGujarati: "ધુમાડા મુક્ત",
+  //   featured: false,
+  //   inStock: true,
+  //   image: "/images/placeholders/agarbatti.svg"
+  // },
+  // {
+  //   id: "agarbatti-03",
+  //   name: "Mogra Divine Incense Pack",
+  //   nameGujarati: "મોગરા ડિવાઇન અગરબત્તી પેક",
+  //   category: "agarbatti",
+  //   categoryName: "Agarbatti (Incense)",
+  //   categoryNameGujarati: "અગરબત્તી",
+  //   price: "₹150",
+  //   priceValue: 150,
+  //   description: "Fresh natural jasmine flower extract incense sticks for daily prayers and festive mood.",
+  //   descriptionGujarati: "તાજા મોગરાના ફૂલોની મધુર સુવાસ આપતી રોજિંદા પૂજન માટેની અગરબત્તી.",
+  //   badge: "Daily Pooja",
+  //   badgeGujarati: "નિત્ય પૂજા",
+  //   featured: false,
+  //   inStock: true,
+  //   image: "/images/placeholders/agarbatti.svg"
+  // },
 
-  // ================= 6. CAPS (ટોપી / કેપ્સ) =================
-  {
-    id: "caps-01",
-    name: "Classic Embroidered Men's Baseball Cap",
-    nameGujarati: "ક્લાસિક એમ્બ્રોઇડરી મેન્સ કેપ",
-    category: "caps",
-    categoryName: "Caps",
-    categoryNameGujarati: "કેપ / ટોપી",
-    price: "₹299",
-    priceValue: 299,
-    description: "100% Cotton breathable baseball cap with adjustable metal buckle strap. Sun protection with style.",
-    descriptionGujarati: "૧૦૦% પ્યોર કોટન સ્માર્ટ કેપ. એડજસ્ટેબલ બકલ અને સન પ્રોટેક્શન સાથે ઉત્તમ ફિટિંગ.",
-    badge: "New Arrival",
-    badgeGujarati: "નવું કલેક્શન",
-    featured: false,
-    inStock: true,
-    image: "/images/placeholders/cap.svg"
-  },
-  {
-    id: "caps-02",
-    name: "Urban Snapback Flat Brim Cap",
-    nameGujarati: "અર્બન સ્નેપબેક યુથ કેપ",
-    category: "caps",
-    categoryName: "Caps",
-    categoryNameGujarati: "કેપ / ટોપી",
-    price: "₹350",
-    priceValue: 350,
-    description: "Modern street-style flat brim snapback cap with premium 3D raised badge logo.",
-    descriptionGujarati: "યુવાનો માટે ટ્રેન્ડી સ્નેપબેક કેપ. કૂલ સ્ટાઇલ અને મજબૂત ફેબ્રિક.",
-    badge: "Youth Style",
-    badgeGujarati: "ટ્રેન્ડી લુક",
-    featured: false,
-    inStock: true,
-    image: "/images/placeholders/cap.svg"
-  },
-  {
-    id: "caps-03",
-    name: "Traditional Prayer Islamic Cap (Topi)",
-    nameGujarati: "પરંપરાગત નમાઝી ટોપી (કઢાઈ વાળી)",
-    category: "caps",
-    categoryName: "Caps",
-    categoryNameGujarati: "કેપ / ટોપી",
-    price: "₹180",
-    priceValue: 180,
-    description: "Handcrafted fine embroidery prayer cap with soft lightweight lining for maximum comfort.",
-    descriptionGujarati: "ઝીણી અને સુંદર કઢાઈ વાળી આરામદાયક નમાઝી ટોપી. સોફ્ટ ફેબ્રિક અને શાનદાર ફિનિશ.",
-    badge: "Handcrafted",
-    badgeGujarati: "હેન્ડક્રાફ્ટેડ",
-    featured: true,
-    inStock: true,
-    image: "/images/placeholders/cap.svg"
-  },
+  // // ================= 6. CAPS (ટોપી / કેપ્સ) =================
+  // {
+  //   id: "caps-01",
+  //   name: "Classic Embroidered Men's Baseball Cap",
+  //   nameGujarati: "ક્લાસિક એમ્બ્રોઇડરી મેન્સ કેપ",
+  //   category: "caps",
+  //   categoryName: "Caps",
+  //   categoryNameGujarati: "કેપ / ટોપી",
+  //   price: "₹299",
+  //   priceValue: 299,
+  //   description: "100% Cotton breathable baseball cap with adjustable metal buckle strap. Sun protection with style.",
+  //   descriptionGujarati: "૧૦૦% પ્યોર કોટન સ્માર્ટ કેપ. એડજસ્ટેબલ બકલ અને સન પ્રોટેક્શન સાથે ઉત્તમ ફિટિંગ.",
+  //   badge: "New Arrival",
+  //   badgeGujarati: "નવું કલેક્શન",
+  //   featured: false,
+  //   inStock: true,
+  //   image: "/images/placeholders/cap.svg"
+  // },
+  // {
+  //   id: "caps-02",
+  //   name: "Urban Snapback Flat Brim Cap",
+  //   nameGujarati: "અર્બન સ્નેપબેક યુથ કેપ",
+  //   category: "caps",
+  //   categoryName: "Caps",
+  //   categoryNameGujarati: "કેપ / ટોપી",
+  //   price: "₹350",
+  //   priceValue: 350,
+  //   description: "Modern street-style flat brim snapback cap with premium 3D raised badge logo.",
+  //   descriptionGujarati: "યુવાનો માટે ટ્રેન્ડી સ્નેપબેક કેપ. કૂલ સ્ટાઇલ અને મજબૂત ફેબ્રિક.",
+  //   badge: "Youth Style",
+  //   badgeGujarati: "ટ્રેન્ડી લુક",
+  //   featured: false,
+  //   inStock: true,
+  //   image: "/images/placeholders/cap.svg"
+  // },
+  // {
+  //   id: "caps-03",
+  //   name: "Traditional Prayer Islamic Cap (Topi)",
+  //   nameGujarati: "પરંપરાગત નમાઝી ટોપી (કઢાઈ વાળી)",
+  //   category: "caps",
+  //   categoryName: "Caps",
+  //   categoryNameGujarati: "કેપ / ટોપી",
+  //   price: "₹180",
+  //   priceValue: 180,
+  //   description: "Handcrafted fine embroidery prayer cap with soft lightweight lining for maximum comfort.",
+  //   descriptionGujarati: "ઝીણી અને સુંદર કઢાઈ વાળી આરામદાયક નમાઝી ટોપી. સોફ્ટ ફેબ્રિક અને શાનદાર ફિનિશ.",
+  //   badge: "Handcrafted",
+  //   badgeGujarati: "હેન્ડક્રાફ્ટેડ",
+  //   featured: true,
+  //   inStock: true,
+  //   image: "/images/placeholders/cap.svg"
+  // },
 
-  // ================= 7. WALLETS (વોલેટ / પાકીટ) =================
-  {
-    id: "wallet-01",
-    name: "Genuine Leather Bi-fold Men's Wallet",
-    nameGujarati: "ઓરિજિનલ લેધર મેન્સ પાકીટ (વોલેટ)",
-    category: "wallets",
-    categoryName: "Wallets",
-    categoryNameGujarati: "વોલેટ (પાકીટ)",
-    price: "₹650",
-    priceValue: 650,
-    description: "Premium top-grain brown leather wallet with RFID blocking, dual currency compartments and card slots.",
-    descriptionGujarati: "શુદ્ધ લેધરનું બ્રાઉન પાકીટ. કાર્ડ સ્લોટ્સ, સિક્કાનું પોકેટ અને આરએફઆઈડી પ્રોટેક્શન.",
-    badge: "Genuine Leather",
-    badgeGujarati: "ઓરિજિનલ લેધર",
-    featured: true,
-    inStock: true,
-    image: "/images/placeholders/wallet.svg"
-  },
-  {
-    id: "wallet-02",
-    name: "Slim Minimalist Carbon Fiber Wallet",
-    nameGujarati: "સ્લિમ કાર્બન ફાઇબર પોકેટ વોલેટ",
-    category: "wallets",
-    categoryName: "Wallets",
-    categoryNameGujarati: "વોલેટ (પાકીટ)",
-    price: "₹499",
-    priceValue: 499,
-    description: "Ultra slim front pocket cardholder wallet with quick thumb-access slot and money clip.",
-    descriptionGujarati: "ખિસ્સામાં સહેલાઈથી સમાઈ જતું સ્લિમ કાર્ડ હોલ્ડર વોલેટ. આધુનિક અને લાઇટવેઇટ.",
-    badge: "Slim Design",
-    badgeGujarati: "સ્લિમ ડિઝાઇન",
-    featured: false,
-    inStock: true,
-    image: "/images/placeholders/wallet.svg"
-  },
-  {
-    id: "wallet-03",
-    name: "Executive Long Zipper Wallet Clutch",
-    nameGujarati: "એક્ઝિક્યુટિવ લોંગ ઝિપર પાકીટ",
-    category: "wallets",
-    categoryName: "Wallets",
-    categoryNameGujarati: "વોલેટ (પાકીટ)",
-    price: "₹850",
-    priceValue: 850,
-    description: "Spacious multi-compartment travel wallet with phone holder, passport sleeve, and secure zipper.",
-    descriptionGujarati: "મોબાઈલ, ચેકબુક, પાસપોર્ટ અને રોકડ રાખવા માટે મોટું મજબૂત ઝિપ વાળું પ્રીમિયમ પાકીટ.",
-    badge: "Travel Special",
-    badgeGujarati: "ટ્રાવેલ સ્પેશિયલ",
-    featured: false,
-    inStock: true,
-    image: "/images/placeholders/wallet.svg"
-  },
+  // // ================= 7. WALLETS (વોલેટ / પાકીટ) =================
+  // {
+  //   id: "wallet-01",
+  //   name: "Genuine Leather Bi-fold Men's Wallet",
+  //   nameGujarati: "ઓરિજિનલ લેધર મેન્સ પાકીટ (વોલેટ)",
+  //   category: "wallets",
+  //   categoryName: "Wallets",
+  //   categoryNameGujarati: "વોલેટ (પાકીટ)",
+  //   price: "₹650",
+  //   priceValue: 650,
+  //   description: "Premium top-grain brown leather wallet with RFID blocking, dual currency compartments and card slots.",
+  //   descriptionGujarati: "શુદ્ધ લેધરનું બ્રાઉન પાકીટ. કાર્ડ સ્લોટ્સ, સિક્કાનું પોકેટ અને આરએફઆઈડી પ્રોટેક્શન.",
+  //   badge: "Genuine Leather",
+  //   badgeGujarati: "ઓરિજિનલ લેધર",
+  //   featured: true,
+  //   inStock: true,
+  //   image: "/images/placeholders/wallet.svg"
+  // },
+  // {
+  //   id: "wallet-02",
+  //   name: "Slim Minimalist Carbon Fiber Wallet",
+  //   nameGujarati: "સ્લિમ કાર્બન ફાઇબર પોકેટ વોલેટ",
+  //   category: "wallets",
+  //   categoryName: "Wallets",
+  //   categoryNameGujarati: "વોલેટ (પાકીટ)",
+  //   price: "₹499",
+  //   priceValue: 499,
+  //   description: "Ultra slim front pocket cardholder wallet with quick thumb-access slot and money clip.",
+  //   descriptionGujarati: "ખિસ્સામાં સહેલાઈથી સમાઈ જતું સ્લિમ કાર્ડ હોલ્ડર વોલેટ. આધુનિક અને લાઇટવેઇટ.",
+  //   badge: "Slim Design",
+  //   badgeGujarati: "સ્લિમ ડિઝાઇન",
+  //   featured: false,
+  //   inStock: true,
+  //   image: "/images/placeholders/wallet.svg"
+  // },
+  // {
+  //   id: "wallet-03",
+  //   name: "Executive Long Zipper Wallet Clutch",
+  //   nameGujarati: "એક્ઝિક્યુટિવ લોંગ ઝિપર પાકીટ",
+  //   category: "wallets",
+  //   categoryName: "Wallets",
+  //   categoryNameGujarati: "વોલેટ (પાકીટ)",
+  //   price: "₹850",
+  //   priceValue: 850,
+  //   description: "Spacious multi-compartment travel wallet with phone holder, passport sleeve, and secure zipper.",
+  //   descriptionGujarati: "મોબાઈલ, ચેકબુક, પાસપોર્ટ અને રોકડ રાખવા માટે મોટું મજબૂત ઝિપ વાળું પ્રીમિયમ પાકીટ.",
+  //   badge: "Travel Special",
+  //   badgeGujarati: "ટ્રાવેલ સ્પેશિયલ",
+  //   featured: false,
+  //   inStock: true,
+  //   image: "/images/placeholders/wallet.svg"
+  // },
 
-  // ================= 8. LEATHER BELTS (લેધર બેલ્ટ) =================
-  {
-    id: "belt-01",
-    name: "Automatic Lock Buckle Leather Belt",
-    nameGujarati: "ઓટોમેટિક લોક બકલ લેધર બેલ્ટ",
-    category: "belts",
-    categoryName: "Leather Belts",
-    categoryNameGujarati: "લેધર બેલ્ટ",
-    price: "₹550",
-    priceValue: 550,
-    description: "Ratchet automatic sliding buckle belt made from 100% pure leather with gold alloy accent.",
-    descriptionGujarati: "ઓટોમેટિક લોક સિસ્ટમ વાળો ૧૦૦% શુદ્ધ લેધર બેલ્ટ. ગોલ્ડન બકલ અને પ્રીમિયમ ફિનિશ.",
-    badge: "Top Seller",
-    badgeGujarati: "ટોપ સેલર",
-    featured: true,
-    inStock: true,
-    image: "/images/placeholders/belt.svg"
-  },
-  {
-    id: "belt-02",
-    name: "Classic Formal Pin-Buckle Leather Belt",
-    nameGujarati: "ક્લાસિક ફોર્મલ પિન-બકલ લેધર પટ્ટો",
-    category: "belts",
-    categoryName: "Leather Belts",
-    categoryNameGujarati: "લેધર બેલ્ટ",
-    price: "₹450",
-    priceValue: 450,
-    description: "Timeless black formal dress belt with polished stainless steel pin buckle. Long-lasting flexibility.",
-    descriptionGujarati: "ઓફિસ અને ફોર્મલ શર્ટ-પેન્ટ સાથે પહેરવા માટે ટ્રેડિશનલ બ્લેક લેધર પટ્ટો.",
-    badge: "Formal Wear",
-    badgeGujarati: "ફોર્મલ વેર",
-    featured: false,
-    inStock: true,
-    image: "/images/placeholders/belt.svg"
-  },
-  {
-    id: "belt-03",
-    name: "Reversible Black & Brown Dual Belt",
-    nameGujarati: "ટુ-ઇન-વન (બ્લેક & બ્રાઉન) રિવર્સિબલ બેલ્ટ",
-    category: "belts",
-    categoryName: "Leather Belts",
-    categoryNameGujarati: "લેધર બેલ્ટ",
-    price: "₹699",
-    priceValue: 699,
-    description: "Rotating buckle dual tone belt. Can be rotated to wear as black or rich tan brown as needed.",
-    descriptionGujarati: "એક જ બેલ્ટમાં બે કલર! બકલ ફેરવીને કાળો અથવા બ્રાઉન પહેરી શકો છો.",
-    badge: "2-in-1 Style",
-    badgeGujarati: "૨-ઇન-૧ સ્ટાઇલ",
-    featured: false,
-    inStock: true,
-    image: "/images/placeholders/belt.svg"
-  },
+  // // ================= 8. LEATHER BELTS (લેધર બેલ્ટ) =================
+  // {
+  //   id: "belt-01",
+  //   name: "Automatic Lock Buckle Leather Belt",
+  //   nameGujarati: "ઓટોમેટિક લોક બકલ લેધર બેલ્ટ",
+  //   category: "belts",
+  //   categoryName: "Leather Belts",
+  //   categoryNameGujarati: "લેધર બેલ્ટ",
+  //   price: "₹550",
+  //   priceValue: 550,
+  //   description: "Ratchet automatic sliding buckle belt made from 100% pure leather with gold alloy accent.",
+  //   descriptionGujarati: "ઓટોમેટિક લોક સિસ્ટમ વાળો ૧૦૦% શુદ્ધ લેધર બેલ્ટ. ગોલ્ડન બકલ અને પ્રીમિયમ ફિનિશ.",
+  //   badge: "Top Seller",
+  //   badgeGujarati: "ટોપ સેલર",
+  //   featured: true,
+  //   inStock: true,
+  //   image: "/images/placeholders/belt.svg"
+  // },
+  // {
+  //   id: "belt-02",
+  //   name: "Classic Formal Pin-Buckle Leather Belt",
+  //   nameGujarati: "ક્લાસિક ફોર્મલ પિન-બકલ લેધર પટ્ટો",
+  //   category: "belts",
+  //   categoryName: "Leather Belts",
+  //   categoryNameGujarati: "લેધર બેલ્ટ",
+  //   price: "₹450",
+  //   priceValue: 450,
+  //   description: "Timeless black formal dress belt with polished stainless steel pin buckle. Long-lasting flexibility.",
+  //   descriptionGujarati: "ઓફિસ અને ફોર્મલ શર્ટ-પેન્ટ સાથે પહેરવા માટે ટ્રેડિશનલ બ્લેક લેધર પટ્ટો.",
+  //   badge: "Formal Wear",
+  //   badgeGujarati: "ફોર્મલ વેર",
+  //   featured: false,
+  //   inStock: true,
+  //   image: "/images/placeholders/belt.svg"
+  // },
+  // {
+  //   id: "belt-03",
+  //   name: "Reversible Black & Brown Dual Belt",
+  //   nameGujarati: "ટુ-ઇન-વન (બ્લેક & બ્રાઉન) રિવર્સિબલ બેલ્ટ",
+  //   category: "belts",
+  //   categoryName: "Leather Belts",
+  //   categoryNameGujarati: "લેધર બેલ્ટ",
+  //   price: "₹699",
+  //   priceValue: 699,
+  //   description: "Rotating buckle dual tone belt. Can be rotated to wear as black or rich tan brown as needed.",
+  //   descriptionGujarati: "એક જ બેલ્ટમાં બે કલર! બકલ ફેરવીને કાળો અથવા બ્રાઉન પહેરી શકો છો.",
+  //   badge: "2-in-1 Style",
+  //   badgeGujarati: "૨-ઇન-૧ સ્ટાઇલ",
+  //   featured: false,
+  //   inStock: true,
+  //   image: "/images/placeholders/belt.svg"
+  // },
 
-  // ================= 9. KEYCHAINS (કીચેન) =================
-  {
-    id: "keychain-01",
-    name: "Custom Metal & Leather Car/Bike Keychain",
-    nameGujarati: "મેન્સ મેટલ & લેધર ગાડી/બાઇક કીચેન",
-    category: "keychains",
-    categoryName: "Keychains",
-    categoryNameGujarati: "કીચેન",
-    price: "₹150",
-    priceValue: 150,
-    description: "Heavy duty zinc alloy keychain with woven leather strap and 360-degree rotating clasp.",
-    descriptionGujarati: "મજબૂત ઝિંક મેટલ અને બ્રેઇડેડ લેધર વાળું આકર્ષક કીચેન. બાઈક અને કાર માટે શ્રેષ્ઠ.",
-    badge: "Durable",
-    badgeGujarati: "મજબૂત ફિનિશ",
-    featured: false,
-    inStock: true,
-    image: "/images/placeholders/keychain.svg"
-  },
-  {
-    id: "keychain-02",
-    name: "Golden Spiritual Emblem Keychain",
-    nameGujarati: "ગોલ્ડન સ્પિરિચ્યુઅલ કીચેન",
-    category: "keychains",
-    categoryName: "Keychains",
-    categoryNameGujarati: "કીચેન",
-    price: "₹120",
-    priceValue: 120,
-    description: "High luster gold-toned spiritual engraved metal pendant keychain with anti-scratch coating.",
-    descriptionGujarati: "શાનદાર ગોલ્ડ પોલિશિંગ વાળું ધાર્મિક કીચેન. નિત્ય ઉપયોગ કે ભેટ આપવા માટે સુંદર.",
-    badge: "Spiritual",
-    badgeGujarati: "ધાર્મિક લુક",
-    featured: false,
-    inStock: true,
-    image: "/images/placeholders/keychain.svg"
-  },
-  {
-    id: "keychain-03",
-    name: "Multi-tool Opener & Carabiner Keychain",
-    nameGujarati: "મલ્ટિ-ટૂલ ઓપનર કારાબિનર કીચેન",
-    category: "keychains",
-    categoryName: "Keychains",
-    categoryNameGujarati: "કીચેન",
-    price: "₹180",
-    priceValue: 180,
-    description: "Rugged tactical carabiner clip with integrated bottle opener and dual key rings.",
-    descriptionGujarati: "બોટલ ઓપનર અને બેલ્ટ ક્લિપ સાથે મલ્ટીફંક્શનલ હેવી મેટલ કીચેન.",
-    badge: "Multi-Tool",
-    badgeGujarati: "મલ્ટિ-ટૂલ",
-    featured: false,
-    inStock: true,
-    image: "/images/placeholders/keychain.svg"
-  },
+  // // ================= 9. KEYCHAINS (કીચેન) =================
+  // {
+  //   id: "keychain-01",
+  //   name: "Custom Metal & Leather Car/Bike Keychain",
+  //   nameGujarati: "મેન્સ મેટલ & લેધર ગાડી/બાઇક કીચેન",
+  //   category: "keychains",
+  //   categoryName: "Keychains",
+  //   categoryNameGujarati: "કીચેન",
+  //   price: "₹150",
+  //   priceValue: 150,
+  //   description: "Heavy duty zinc alloy keychain with woven leather strap and 360-degree rotating clasp.",
+  //   descriptionGujarati: "મજબૂત ઝિંક મેટલ અને બ્રેઇડેડ લેધર વાળું આકર્ષક કીચેન. બાઈક અને કાર માટે શ્રેષ્ઠ.",
+  //   badge: "Durable",
+  //   badgeGujarati: "મજબૂત ફિનિશ",
+  //   featured: false,
+  //   inStock: true,
+  //   image: "/images/placeholders/keychain.svg"
+  // },
+  // {
+  //   id: "keychain-02",
+  //   name: "Golden Spiritual Emblem Keychain",
+  //   nameGujarati: "ગોલ્ડન સ્પિરિચ્યુઅલ કીચેન",
+  //   category: "keychains",
+  //   categoryName: "Keychains",
+  //   categoryNameGujarati: "કીચેન",
+  //   price: "₹120",
+  //   priceValue: 120,
+  //   description: "High luster gold-toned spiritual engraved metal pendant keychain with anti-scratch coating.",
+  //   descriptionGujarati: "શાનદાર ગોલ્ડ પોલિશિંગ વાળું ધાર્મિક કીચેન. નિત્ય ઉપયોગ કે ભેટ આપવા માટે સુંદર.",
+  //   badge: "Spiritual",
+  //   badgeGujarati: "ધાર્મિક લુક",
+  //   featured: false,
+  //   inStock: true,
+  //   image: "/images/placeholders/keychain.svg"
+  // },
+  // {
+  //   id: "keychain-03",
+  //   name: "Multi-tool Opener & Carabiner Keychain",
+  //   nameGujarati: "મલ્ટિ-ટૂલ ઓપનર કારાબિનર કીચેન",
+  //   category: "keychains",
+  //   categoryName: "Keychains",
+  //   categoryNameGujarati: "કીચેન",
+  //   price: "₹180",
+  //   priceValue: 180,
+  //   description: "Rugged tactical carabiner clip with integrated bottle opener and dual key rings.",
+  //   descriptionGujarati: "બોટલ ઓપનર અને બેલ્ટ ક્લિપ સાથે મલ્ટીફંક્શનલ હેવી મેટલ કીચેન.",
+  //   badge: "Multi-Tool",
+  //   badgeGujarati: "મલ્ટિ-ટૂલ",
+  //   featured: false,
+  //   inStock: true,
+  //   image: "/images/placeholders/keychain.svg"
+  // },
 
-  // ================= 10. IMITATION JEWELLERY (ઈમિટેશન જવેલરી) =================
-  {
-    id: "jewellery-01",
-    name: "Royal Gold-Plated Men's Chain & Kada",
-    nameGujarati: "રોયલ ગોલ્ડ પ્લેટેડ મેન્સ ચેઇન & કડો",
-    category: "jewellery",
-    categoryName: "Imitation Jewellery",
-    categoryNameGujarati: "ઈમિટેશન જવેલરી",
-    price: "Ask for price",
-    priceValue: null,
-    description: "Heavy micropowder gold plated Cuban link chain and matching Sikh/Rajput styled solid Kada.",
-    descriptionGujarati: "શાહી લુક આપતી હેવી ગોલ્ડ પ્લેટેડ ચેઇન અને કડો. લગ્ન-પ્રસંગમાં રોયલ વ્યક્તિત્વ માટે.",
-    badge: "Royal Design",
-    badgeGujarati: "રોયલ ડિઝાઇન",
-    featured: true,
-    inStock: true,
-    image: "/images/placeholders/jewellery.svg"
-  },
-  {
-    id: "jewellery-02",
-    name: "Lord Ganesha & Om Pendant with Chain",
-    nameGujarati: "ગણેશજી & ઓમ પેન્ડન્ટ ચેઇન સાથે",
-    category: "jewellery",
-    categoryName: "Imitation Jewellery",
-    categoryNameGujarati: "ઈમિટેશન જવેલરી",
-    price: "₹350",
-    priceValue: 350,
-    description: "Detailed crafted religious pendant with long-lasting yellow gold micro plating.",
-    descriptionGujarati: "સુંદર નકશીકામ વાળું ધાર્મિક પેન્ડન્ટ સાથે મજબૂત ગોલ્ડન ચેઇન. રોજિંદા પહેરવેશ માટે ઉત્તમ.",
-    badge: "Spiritual",
-    badgeGujarati: "ધાર્મિક લુક",
-    featured: false,
-    inStock: true,
-    image: "/images/placeholders/jewellery.svg"
-  },
-  {
-    id: "jewellery-03",
-    name: "Black Onyx & Gold Signet Men's Ring",
-    nameGujarati: "બ્લેક ઓનિક્સ & ગોલ્ડ મેન્સ વીંટી (રિંગ)",
-    category: "jewellery",
-    categoryName: "Imitation Jewellery",
-    categoryNameGujarati: "ઈમિટેશન જવેલરી",
-    price: "₹280",
-    priceValue: 280,
-    description: "Bold rectangular black gem signet ring crafted in rust-resistant brass with shiny gold finish.",
-    descriptionGujarati: "પુરુષો માટે આકર્ષક બ્લેક સ્ટોન ગોલ્ડન રિંગ. પ્રીમિયમ ફિનિશ અને આરામદાયક ફિટિંગ.",
-    badge: "Classy",
-    badgeGujarati: "ક્લાસી લુક",
-    featured: false,
-    inStock: true,
-    image: "/images/placeholders/jewellery.svg"
-  }
+  // // ================= 10. IMITATION JEWELLERY (ઈમિટેશન જવેલરી) =================
+  // {
+  //   id: "jewellery-01",
+  //   name: "Royal Gold-Plated Men's Chain & Kada",
+  //   nameGujarati: "રોયલ ગોલ્ડ પ્લેટેડ મેન્સ ચેઇન & કડો",
+  //   category: "jewellery",
+  //   categoryName: "Imitation Jewellery",
+  //   categoryNameGujarati: "ઈમિટેશન જવેલરી",
+  //   price: "Ask for price",
+  //   priceValue: null,
+  //   description: "Heavy micropowder gold plated Cuban link chain and matching Sikh/Rajput styled solid Kada.",
+  //   descriptionGujarati: "શાહી લુક આપતી હેવી ગોલ્ડ પ્લેટેડ ચેઇન અને કડો. લગ્ન-પ્રસંગમાં રોયલ વ્યક્તિત્વ માટે.",
+  //   badge: "Royal Design",
+  //   badgeGujarati: "રોયલ ડિઝાઇન",
+  //   featured: true,
+  //   inStock: true,
+  //   image: "/images/placeholders/jewellery.svg"
+  // },
+  // {
+  //   id: "jewellery-02",
+  //   name: "Lord Ganesha & Om Pendant with Chain",
+  //   nameGujarati: "ગણેશજી & ઓમ પેન્ડન્ટ ચેઇન સાથે",
+  //   category: "jewellery",
+  //   categoryName: "Imitation Jewellery",
+  //   categoryNameGujarati: "ઈમિટેશન જવેલરી",
+  //   price: "₹350",
+  //   priceValue: 350,
+  //   description: "Detailed crafted religious pendant with long-lasting yellow gold micro plating.",
+  //   descriptionGujarati: "સુંદર નકશીકામ વાળું ધાર્મિક પેન્ડન્ટ સાથે મજબૂત ગોલ્ડન ચેઇન. રોજિંદા પહેરવેશ માટે ઉત્તમ.",
+  //   badge: "Spiritual",
+  //   badgeGujarati: "ધાર્મિક લુક",
+  //   featured: false,
+  //   inStock: true,
+  //   image: "/images/placeholders/jewellery.svg"
+  // },
+  // {
+  //   id: "jewellery-03",
+  //   name: "Black Onyx & Gold Signet Men's Ring",
+  //   nameGujarati: "બ્લેક ઓનિક્સ & ગોલ્ડ મેન્સ વીંટી (રિંગ)",
+  //   category: "jewellery",
+  //   categoryName: "Imitation Jewellery",
+  //   categoryNameGujarati: "ઈમિટેશન જવેલરી",
+  //   price: "₹280",
+  //   priceValue: 280,
+  //   description: "Bold rectangular black gem signet ring crafted in rust-resistant brass with shiny gold finish.",
+  //   descriptionGujarati: "પુરુષો માટે આકર્ષક બ્લેક સ્ટોન ગોલ્ડન રિંગ. પ્રીમિયમ ફિનિશ અને આરામદાયક ફિટિંગ.",
+  //   badge: "Classy",
+  //   badgeGujarati: "ક્લાસી લુક",
+  //   featured: false,
+  //   inStock: true,
+  //   image: "/images/placeholders/jewellery.svg"
+  // }
 ];
 
 export const CATEGORIES: CategoryInfo[] = [
@@ -583,64 +583,64 @@ export const CATEGORIES: CategoryInfo[] = [
     descriptionGu: 'ગોલ્ડન ક્રોનોગ્રાફ, ફોર્મલ લેધર અને સ્પોર્ટ્સ વોચનું ભવ્ય કલેક્શન.',
     itemCount: 3
   },
-  {
-    id: 'agarbatti',
-    nameEn: 'Agarbatti (Incense)',
-    nameGu: 'અગરબત્તી',
-    iconName: 'Flame',
-    image: '/images/placeholders/agarbatti.svg',
-    descriptionEn: 'Natural Chandan, Mogra and Kasturi masala incense sticks for prayer and tranquility.',
-    descriptionGu: 'કુદરતી ચંદન, મોગરા અને કેસર કસ્તુરીની પવિત્ર સુવાસ વાળી મસાલા અગરબત્તી.',
-    itemCount: 3
-  },
-  {
-    id: 'caps',
-    nameEn: 'Caps',
-    nameGu: 'કેપ / ટોપી',
-    iconName: 'Crown',
-    image: '/images/placeholders/cap.svg',
-    descriptionEn: 'Trendy cotton baseball caps, urban snapbacks and embroidered prayer topis.',
-    descriptionGu: 'સ્ટાઇલિશ બેઝબોલ કેપ્સ, સ્નેપબેક્સ અને કઢાઈ વાળી આરામદાયક નમાઝી ટોપીઓ.',
-    itemCount: 3
-  },
-  {
-    id: 'wallets',
-    nameEn: 'Wallets',
-    nameGu: 'વોલેટ (પાકીટ)',
-    iconName: 'CreditCard',
-    image: '/images/placeholders/wallet.svg',
-    descriptionEn: 'Genuine leather bi-folds, slim RFID cardholders and spacious travel clutches.',
-    descriptionGu: 'ઓરિજિનલ લેધર પાકીટ, સ્લિમ કાર્ડ હોલ્ડર્સ અને ટ્રાવેલ વોલેટ્સ.',
-    itemCount: 3
-  },
-  {
-    id: 'belts',
-    nameEn: 'Leather Belts',
-    nameGu: 'લેધર બેલ્ટ',
-    iconName: 'ShieldCheck',
-    image: '/images/placeholders/belt.svg',
-    descriptionEn: 'Automatic ratchet belts, classic pin buckle belts and reversible black-brown belts.',
-    descriptionGu: 'ઓટોમેટિક લોક સિસ્ટમ, ફોર્મલ પિન બકલ અને રિવર્સિબલ શુદ્ધ લેધર પટ્ટા.',
-    itemCount: 3
-  },
-  {
-    id: 'keychains',
-    nameEn: 'Keychains',
-    nameGu: 'કીચેન',
-    iconName: 'Key',
-    image: '/images/placeholders/keychain.svg',
-    descriptionEn: 'Heavy metal alloy car/bike keychains, spiritual pendants and tactical multi-tools.',
-    descriptionGu: 'ગાડી અને બાઈક માટે પ્રીમિયમ મેટલ, લેધર અને ધાર્મિક કીચેનનું કલેક્શન.',
-    itemCount: 3
-  },
-  {
-    id: 'jewellery',
-    nameEn: 'Imitation Jewellery',
-    nameGu: 'ઈમિટેશન જવેલરી',
-    iconName: 'Gem',
-    image: '/images/placeholders/jewellery.svg',
-    descriptionEn: 'Royal gold-plated Cuban chains, heavy kadas, religious pendants and onyx signet rings.',
-    descriptionGu: 'ગોલ્ડ પ્લેટેડ મેન્સ ચેઇન, રોયલ કડા, ધાર્મિક પેન્ડન્ટ અને ક્લાસી રિંગ્સ.',
-    itemCount: 3
-  }
+  // {
+  //   id: 'agarbatti',
+  //   nameEn: 'Agarbatti (Incense)',
+  //   nameGu: 'અગરબત્તી',
+  //   iconName: 'Flame',
+  //   image: '/images/placeholders/agarbatti.svg',
+  //   descriptionEn: 'Natural Chandan, Mogra and Kasturi masala incense sticks for prayer and tranquility.',
+  //   descriptionGu: 'કુદરતી ચંદન, મોગરા અને કેસર કસ્તુરીની પવિત્ર સુવાસ વાળી મસાલા અગરબત્તી.',
+  //   itemCount: 3
+  // },
+  // {
+  //   id: 'caps',
+  //   nameEn: 'Caps',
+  //   nameGu: 'કેપ / ટોપી',
+  //   iconName: 'Crown',
+  //   image: '/images/placeholders/cap.svg',
+  //   descriptionEn: 'Trendy cotton baseball caps, urban snapbacks and embroidered prayer topis.',
+  //   descriptionGu: 'સ્ટાઇલિશ બેઝબોલ કેપ્સ, સ્નેપબેક્સ અને કઢાઈ વાળી આરામદાયક નમાઝી ટોપીઓ.',
+  //   itemCount: 3
+  // },
+  // {
+  //   id: 'wallets',
+  //   nameEn: 'Wallets',
+  //   nameGu: 'વોલેટ (પાકીટ)',
+  //   iconName: 'CreditCard',
+  //   image: '/images/placeholders/wallet.svg',
+  //   descriptionEn: 'Genuine leather bi-folds, slim RFID cardholders and spacious travel clutches.',
+  //   descriptionGu: 'ઓરિજિનલ લેધર પાકીટ, સ્લિમ કાર્ડ હોલ્ડર્સ અને ટ્રાવેલ વોલેટ્સ.',
+  //   itemCount: 3
+  // },
+  // {
+  //   id: 'belts',
+  //   nameEn: 'Leather Belts',
+  //   nameGu: 'લેધર બેલ્ટ',
+  //   iconName: 'ShieldCheck',
+  //   image: '/images/placeholders/belt.svg',
+  //   descriptionEn: 'Automatic ratchet belts, classic pin buckle belts and reversible black-brown belts.',
+  //   descriptionGu: 'ઓટોમેટિક લોક સિસ્ટમ, ફોર્મલ પિન બકલ અને રિવર્સિબલ શુદ્ધ લેધર પટ્ટા.',
+  //   itemCount: 3
+  // },
+  // {
+  //   id: 'keychains',
+  //   nameEn: 'Keychains',
+  //   nameGu: 'કીચેન',
+  //   iconName: 'Key',
+  //   image: '/images/placeholders/keychain.svg',
+  //   descriptionEn: 'Heavy metal alloy car/bike keychains, spiritual pendants and tactical multi-tools.',
+  //   descriptionGu: 'ગાડી અને બાઈક માટે પ્રીમિયમ મેટલ, લેધર અને ધાર્મિક કીચેનનું કલેક્શન.',
+  //   itemCount: 3
+  // },
+  // {
+  //   id: 'jewellery',
+  //   nameEn: 'Imitation Jewellery',
+  //   nameGu: 'ઈમિટેશન જવેલરી',
+  //   iconName: 'Gem',
+  //   image: '/images/placeholders/jewellery.svg',
+  //   descriptionEn: 'Royal gold-plated Cuban chains, heavy kadas, religious pendants and onyx signet rings.',
+  //   descriptionGu: 'ગોલ્ડ પ્લેટેડ મેન્સ ચેઇન, રોયલ કડા, ધાર્મિક પેન્ડન્ટ અને ક્લાસી રિંગ્સ.',
+  //   itemCount: 3
+  // }
 ];
